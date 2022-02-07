@@ -1,1 +1,3 @@
-# gnosis
+# Gnosis
+
+Algorithmic trading repository.
