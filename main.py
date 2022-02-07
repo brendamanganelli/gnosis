@@ -17,7 +17,7 @@ VOL_TARGET = 0.20 #we are targetting 20% annualized vol
 
 #let's perform the simulation for the past 5 years
 
-print(df.index[-1]) #is today's date. (as I film) 2022-01-19
+print(df.index[-1]) #is today's date. 
 #I want to start testing from 5 years back
 
 sim_start = df.index[-1] - relativedelta(years=5)
