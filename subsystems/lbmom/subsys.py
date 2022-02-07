@@ -3,10 +3,6 @@ import pandas as pd
 
 import quantlib.indicators_cal as indicators_cal
 
-"""
-https://hangukquant.substack.com/p/volatility-targeting-the-asset-level
-https://hangukquant.substack.com/p/volatility-targeting-the-strategy
-"""
 
 class Lbmom():
 
@@ -76,7 +72,4 @@ class Lbmom():
 #we don't perform unnecssary calculations - we do general calc in the driver, such as returns, volatility etc
 #needed for all strats. then, indicators specific to strat is done inside the strategy to save time.
 
-#each strategy has a config file, so that we can control some parameters. later, we shall see how this might be useful
-#:)))
-
-#ok break.
+#each strategy has a config file, so that we can control some parameters.
